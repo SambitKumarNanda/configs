@@ -3,10 +3,10 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
 -- save
-vim.keymap.set("n", "<C-s>", ":w<CR>", { desc = "Save" })
+vim.keymap.set("n", "<leader>w", ":w<CR>", { desc = "Save" })
 
 -- quit
-vim.keymap.set("n", "<C-q>", ":wq<CR>", { desc = "Save And Quit" })
+vim.keymap.set("n", "<leader>q", ":q<CR>", { desc = "Quit" })
 
 -- clear highlights
 vim.keymap.set("n", "<Esc>", ":noh<CR>", { desc = "Clear highlight" })
